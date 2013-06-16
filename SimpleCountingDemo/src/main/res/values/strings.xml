@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" >Counting Demo!
+    </string>
+    <string name="action_settings" >Settings
+    </string>
+    <string name="hello_world" >Hello world!
+    </string>
+    <string name="switch_label">+ or -
+    </string>
+    <string name="count_button_label">Count
+    </string>
+    <string name="increment_label">Increment
+    </string>
+    <string name="decrement_label">Decrement
+    </string>
+    <string name="count_header_label">Current Count:
+    </string>
+
+</resources>
