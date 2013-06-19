@@ -39,8 +39,6 @@ public class MainActivity extends Activity {
 
         mCountButton.setOnClickListener(new CountButtonClickListener() );
 
-
-
     }
 
 
@@ -65,13 +63,11 @@ public class MainActivity extends Activity {
             if ( mIncDecSwitch.isChecked() ) {
                 // Checked is the positive count-up state
                 mCount++;
-                mCountNumberTextView.setText(String.valueOf(mCount));
             } else {
                 // unChecked is the negative count-down state
                 mCount--;
-                mCountNumberTextView.setText(String.valueOf(mCount));
-
             }
+            mCountNumberTextView.setText(String.valueOf(mCount));
         }
     }
 
